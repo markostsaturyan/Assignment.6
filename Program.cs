@@ -33,7 +33,7 @@ namespace MyDictionary
             time.Start();
             while (a != 0)
             {
-                redBlack.Add(a, random.Next(1, 150));
+                 dictionary.Add(a, random.Next(1, 150));
                 a--;
             }
             time.Stop();
@@ -58,7 +58,7 @@ namespace MyDictionary
             time.Start();
             while (a != 0)
             {
-                redBlack.Add(a, random.Next(1, 150));
+                 dictionary.Add(a, random.Next(1, 150));
                 a--;
             }
             time.Stop();
@@ -83,7 +83,7 @@ namespace MyDictionary
             time.Start();
             while (a != 0)
             {
-                redBlack.Add(a, random.Next(1, 150));
+                dictionary.Add(a, random.Next(1, 150));
                 a--;
             }
             time.Stop();
